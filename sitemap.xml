@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nickey.top/2021/12/17/hello-world/</loc>
+    <loc>https://nickey.top/2020/12/17/hello-world/</loc>
     
     <lastmod>2021-12-20</lastmod>
     
@@ -37,6 +37,20 @@
   </url>
 
   
+  <url>
+    <loc>https://nickey.top/tags/test/</loc>
+    <lastmod>2021-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://nickey.top/categories/aa/</loc>
+    <lastmod>2021-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
