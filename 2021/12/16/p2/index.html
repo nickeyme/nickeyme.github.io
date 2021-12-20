@@ -151,10 +151,10 @@
       el: '#vcomment',
       appId: 'NHtwIyzlgEmU6i0kq7YUu0Oe-gzGzoHsz',
       appKey: 'iLR0sYytoFfureSpqQQd7zvP',
-      placeholder: '昵称填写qq可以显示qq头像和昵称哦~',
+      placeholder: '评论区',
       avatar: 'monsterid',
-      meta: 'nick,mail,link'.split(','),
-      pageSize: '5',
+      meta: 'nick,mail'.split(','),
+      pageSize: '10',
       lang: 'zh-CN',
       recordIP: false,
       serverURLs: '',
@@ -162,13 +162,13 @@
       emojiMaps: "",
       enableQQ: false,
       path: window.location.pathname,
-      requiredFields: ["nick,mail"],
-      visitor: false
+      requiredFields: ["nick"],
+      visitor: true
     }, null))
   }
 
   if (typeof Valine === 'function') initValine() 
-  else getScript('https://cdnjs.cloudflare.com/ajax/libs/valine/1.4.16/Valine.min.js').then(initValine)
+  else getScript('/js/valine.min.js').then(initValine)
 }
 
 if ('Valine' === 'Valine' || !true) {
