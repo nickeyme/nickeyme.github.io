@@ -178,6 +178,23 @@ template {
 [hidden] {
   display: none
 }
+
+img[alt="w100"] {
+  width:100px;
+}
+img[alt="w200"] {
+  width:200px;
+}
+img[alt="w300"] {
+  width:300px;
+}
+img[alt="w400"] {
+  width:400px;
+}
+img[alt="w500"] {
+  width:500px;
+}
+
 .limit-one-line,
 #article-container .flink .flink-list > .flink-list-item a .flink-item-name,
 #article-container .flink .flink-list > .flink-list-item a .flink-item-desc,
@@ -4471,6 +4488,12 @@ blockquote footer cite:before {
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
+}
+#vcomment textarea {
+  background: url("/img/comment_bg.png") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
 }
 .fireworks {
   position: fixed;
